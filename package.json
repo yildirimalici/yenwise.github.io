@@ -2,7 +2,7 @@
   "name": "yenwise",
   "version": "0.1.2",
   "private": true,
-  "homepage": "https://yenwise.github.io",
+  "homepage": "https://github.com/yildirimalici/yenwise.github.io",
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@testing-library/jest-dom": "^5.16.5",
