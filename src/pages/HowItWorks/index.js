@@ -43,7 +43,7 @@ function HowItWorks() {
                     </div>
                     <div className='col-xl-6 p-4'>
                         <div className='d-flex justify-content-center align-items-center h-100 w-100'>
-                            <div className='lottie-player'>
+                            <div className='lottie-player-1'>
                                 <Player
                                     autoplay
                                     speed={1}
@@ -77,7 +77,7 @@ function HowItWorks() {
                 <div className='row'>
                     <div className='col-xl-6 p-4'>
                         <div className='d-flex justify-content-center align-items-center h-100 w-100'>
-                            <div className='lottie-player'>
+                            <div className='lottie-player-2'>
                                 <Player
                                     autoplay
                                     speed={1}

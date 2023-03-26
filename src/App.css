@@ -42,12 +42,23 @@
   padding: 3px 0 3px 28px;
 }
 
-.lottie-player {
-  max-height: 500px;
-  max-width: 500px;
+.lottie-player-1 {
+  width: 500px;
+  height: 425px;
+}
+
+.lottie-player-2 {
+  width: 500px;
+  height: 363px;
 }
 
 .grid-img {
   height: 288px;
   width: 388px;
+}
+
+.grid-video {
+  min-width: 300px;
+  min-height: 290px;
+  max-width: 400px;
 }

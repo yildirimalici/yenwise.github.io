@@ -27,7 +27,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='py-5'>
+      <Container className='py-5'>
         <div className="py-5 text-center d-flex justify-content-center">
           <div className='grid-text'>
             <h5 className="mb-4">What can you build with yenwise?</h5>
@@ -36,49 +36,55 @@ function Home() {
         </div>
 
         <div>
-          <div className='row justify-content-md-center text-center pb-5 m-0'>
-            <div className='col-12 col-lg-3'>
-              <div className='p-4'>
-                <div className="ratio ratio-4x3">
-                  <video autoPlay muted loop>
-                    <source src={moderator} type='video/mp4' />
-                  </video>
+          <div className='row justify-content-center text-center pb-4 m-0'>
+            <div className='col-12 col-lg-4 d-flex justify-content-center'>
+              <div className='grid-video m-3'>
+                <div className='p-2'>
+                  <div className="ratio ratio-4x3">
+                    <video autoPlay muted loop>
+                      <source src={moderator} type='video/mp4' />
+                    </video>
+                  </div>
                 </div>
-              </div>
-              <div className='p-4'>
-                <h5>For moderators</h5>
-                <h6>Moderators use yenwise to quickly prioritize and review comments that have been reported.</h6>
+                <div className='p-2'>
+                  <h5>For moderators</h5>
+                  <h6>Moderators use yenwise to quickly prioritize and review comments that have been reported.</h6>
+                </div>
               </div>
             </div>
-            <div className='col-12 col-lg-3'>
-              <div className='p-4'>
-                <div className="ratio ratio-4x3">
-                  <video autoPlay muted loop>
-                    <source src={commenter} type='video/mp4' />
-                  </video>
+            <div className='col-12 col-lg-4 d-flex justify-content-center'>
+              <div className=' grid-video m-3'>
+                <div className='p-2'>
+                  <div className="ratio ratio-4x3">
+                    <video autoPlay muted loop>
+                      <source src={commenter} type='video/mp4' />
+                    </video>
+                  </div>
                 </div>
-              </div>
-              <div className='p-4'>
-                <h5>For commenters</h5>
-                <h6>yenwise can give feedback to commenters who post toxic comments.</h6>
+                <div className='p-2'>
+                  <h5>For commenters</h5>
+                  <h6>yenwise can give feedback to commenters who post toxic comments.</h6>
+                </div>
               </div>
             </div>
-            <div className='col-12 col-lg-3'>
-              <div className='p-4'>
-                <div className="ratio ratio-4x3">
-                  <video autoPlay muted loop>
-                    <source src={readers} type='video/mp4' />
-                  </video>
+            <div className='col-12 col-lg-4 d-flex justify-content-center'>
+              <div className='grid-video m-3'>
+                <div className='p-2'>
+                  <div className="ratio ratio-4x3">
+                    <video autoPlay muted loop>
+                      <source src={readers} type='video/mp4' />
+                    </video>
+                  </div>
                 </div>
-              </div>
-              <div className='p-4'>
-                <h5>For readers</h5>
-                <h6>Developers create tools so readers can control which comments they see, like hiding comments.</h6>
+                <div className='p-2'>
+                  <h5>For readers</h5>
+                  <h6>Developers create tools so readers can control which comments they see, like hiding comments.</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </Container>
 
       <div className='bg-body-secondary py-5'>
         <div className="py-5 text-center d-flex justify-content-center">
